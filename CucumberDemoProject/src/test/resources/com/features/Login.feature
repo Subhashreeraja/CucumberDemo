@@ -24,3 +24,5 @@ Scenario: Login with empty credentials
   And User enters password as ""
   And user click the log in button
   Then User should not be able to login successfully
+  
+ 

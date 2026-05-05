@@ -30,6 +30,8 @@ public class LoginStepDefinition {
         wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.get("https://www.demoblaze.com/");
+
     }
 
     @Given("User is on the HomePage")

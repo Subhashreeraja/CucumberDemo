@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/3/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon May 04 14:06:02 IST 2026</td>
+<td>Started on:</td><td>Tue May 05 12:41:24 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>62 seconds (62804 ms)</td>
+<tr><td>Total time:</td><td>21 seconds (21950 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,88 +76,9 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.testngRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testngRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with invalid credentials", "Login to the Demoblaze Application"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.id: login2 to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#login2&quot;}.
-(tried for 15 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.137, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59376}, goog:processID: 36820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59376/devtoo..., se:cdpVersion: 147.0.7727.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f2c4ba7df0bf3d9feee816225dcfcac9
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at stepDefinitions.LoginStepDefinition.user_click_the_login_link(LoginStepDefinition.java:30)
-	at ✽.user click the login link(file:///D:/TestNg/CucumberDemoProject/src/test/resources/com/features/Login.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1213367860", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1213367860'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.id: login2 to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#login2&quot;}.
-(tried for 15 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.137, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59376}, goog:processID: 36820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59376/devtoo..., se:cdpVersion: 147.0.7727.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f2c4ba7df0bf3d9feee816225dcfcac9
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at stepDefinitions.LoginStepDefinition.user_click_the_login_link(LoginStepDefinition.java:30)
-	at ✽.user click the login link(file:///D:/TestNg/CucumberDemoProject/src/test/resources/com/features/Login.feature:6)
-</pre></div></td>
-<td>19</td>
-<td>runner.testngRunner@5dda768f</td></tr>
-<tr>
-<td title='runner.testngRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testngRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Login to the Demoblaze Application"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.id: login2 to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#login2&quot;}.
-(tried for 15 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.137, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50649}, goog:processID: 34508, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50649/devtoo..., se:cdpVersion: 147.0.7727.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 961b1aeb4f337fe9ff257aecf1dc33c2
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at stepDefinitions.LoginStepDefinition.user_click_the_login_link(LoginStepDefinition.java:30)
-	at ✽.user click the login link(file:///D:/TestNg/CucumberDemoProject/src/test/resources/com/features/Login.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace594570680", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace594570680'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.id: login2 to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#login2&quot;}.
-(tried for 15 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.137, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50649}, goog:processID: 34508, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50649/devtoo..., se:cdpVersion: 147.0.7727.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 961b1aeb4f337fe9ff257aecf1dc33c2
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at stepDefinitions.LoginStepDefinition.user_click_the_login_link(LoginStepDefinition.java:30)
-	at ✽.user click the login link(file:///D:/TestNg/CucumberDemoProject/src/test/resources/com/features/Login.feature:6)
-</pre></div></td>
-<td>21</td>
-<td>runner.testngRunner@5dda768f</td></tr>
-<tr>
-<td title='runner.testngRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testngRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with invalid credentials", "Login to the Demoblaze Application"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.id: login2 to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#login2&quot;}.
-(tried for 15 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.137, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61287}, goog:processID: 25864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61287/devtoo..., se:cdpVersion: 147.0.7727.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64ac0248cbc231e0511741119c498286
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at stepDefinitions.LoginStepDefinition.user_click_the_login_link(LoginStepDefinition.java:30)
-	at ✽.user click the login link(file:///D:/TestNg/CucumberDemoProject/src/test/resources/com/features/Login.feature:6)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1648537147", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1648537147'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element found by By.id: login2 to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#login2&quot;}.
-(tried for 15 seconds with 500 milliseconds interval)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.137, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\SUBHAS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61287}, goog:processID: 25864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61287/devtoo..., se:cdpVersion: 147.0.7727.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64ac0248cbc231e0511741119c498286
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at stepDefinitions.LoginStepDefinition.user_click_the_login_link(LoginStepDefinition.java:30)
-	at ✽.user click the login link(file:///D:/TestNg/CucumberDemoProject/src/test/resources/com/features/Login.feature:6)
-</pre></div></td>
-<td>19</td>
+<td title='runner.testngRunner.runScenario()'><b>runScenario</b><br>Test class: runner.testngRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials-Data Table without header", "Login"</td>
+<td></td>
+<td>20</td>
 <td>runner.testngRunner@5dda768f</td></tr>
 </table><p>
 </body>

@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(plugin= {"pretty","html:target/cucumber-reports/Cucumber.html"},
-features="src/test/resources/com/features/Categories.feature",
+features="src/test/resources/com/features/LoginDataTables.feature",
 glue="stepDefinitions")
 public class testngRunner extends  AbstractTestNGCucumberTests{
 
